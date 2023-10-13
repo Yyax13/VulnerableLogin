@@ -9,14 +9,14 @@
 <body>
 <div class="card">
     <h1> Entrar </h1>
-    <form method="get">
+    <form id="login-form" method="get">
         <label for="user">Usuario:</label>
-        <input type="text" id="user" name="user" placeholder="Usuario" required oninvalid="setCustomValidity('Por favor, preencha este campo.')" /><br>
+        <input type="text" id="user" name="user" placeholder="Usuario" /><br>
         <br>
         <label for="passwd">Senha:</label>
-        <input type="password" id="passwd" name="passwd" placeholder="Senha" required oninvalid="setCustomValidity('Por favor, preencha este campo.')" /><br>
+        <input type="password" id="passwd" name="passwd" placeholder="Senha" /><br>
         <br>
-        <button type="submit">Login</button>
+        <button id="login-button" type="submit">Login</button>
     </form>
 </div>
 </body>
